@@ -60,6 +60,8 @@ function draw() {
          invisibleGround.velocityX = 0;
          knight.velocityY = 0
         
+        text("game over!", 200,300);
+        
 
        dragonGroup.setLifetimeEach(-1);
     
