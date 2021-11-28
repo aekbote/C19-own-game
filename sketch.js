@@ -33,7 +33,7 @@ function setup() {
 
     dragonGroup = new Group();
 
-    knight.debug = true;
+    //knight.debug = true;
     
 }
 
@@ -87,8 +87,8 @@ function SpawnDragons(){
         //add each dragon to the group
         dragonGroup.add(dragon);
 
-        dragon.debug = true;
-        dragon.setCollider("rectangle",0,0,dragon.width - 150, dragon.height - 100);
+        //dragon.debug = true;
+        //dragon.setCollider("rectangle",0,0,dragon.width - 150, dragon.height - 100);
     }
 
 }
