@@ -17,9 +17,6 @@ function preload(){
   
 function setup() {
  createCanvas(600,400);
-    //displaying score
-    text("Score: "+ score, 550,50);
-
     //creating knight
     knight = createSprite(80,320);
     knight.addImage(knightImg);
@@ -32,6 +29,10 @@ function setup() {
     score = 0;
 
     dragonGroup = new Group();
+    
+        //displaying score
+    text("Score: "+ score, 550,50);
+
 
     //knight.debug = true;
     
