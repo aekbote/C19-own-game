@@ -77,6 +77,7 @@ function draw() {
         
         //displaying score
     text("Score: "+ score, 550,50);
+    fill('white');
 }
 
 function SpawnDragons(){
