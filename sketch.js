@@ -29,9 +29,7 @@ function setup() {
     score = 0;
 
     dragonGroup = new Group();
-    
-        //displaying score
-    text("Score: "+ score, 550,50);
+
 
 
     //knight.debug = true;
@@ -76,6 +74,9 @@ function draw() {
     SpawnDragons();
 
     drawSprites();
+        
+        //displaying score
+    text("Score: "+ score, 550,50);
 }
 
 function SpawnDragons(){
