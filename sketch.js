@@ -60,6 +60,7 @@ function draw() {
          knight.velocityY = 0
         
         text("game over!", 200,300);
+        textSize(20);
         
 
        dragonGroup.setLifetimeEach(-1);
