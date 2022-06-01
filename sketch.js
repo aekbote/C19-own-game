@@ -59,8 +59,9 @@ function draw() {
          invisibleGround.velocityX = 0;
          knight.velocityY = 0
         
-        text("game over!", 200,300);
         textSize(20);
+        text("game over!", 200,300);
+
         
 
        dragonGroup.setLifetimeEach(-1);
@@ -77,8 +78,9 @@ function draw() {
     drawSprites();
         
         //displaying score
-    text("Score: "+ score, 550,50);
-    fill('white');
+      fill('white');
+     text("Score: "+ score, 550,50);
+  
 }
 
 function SpawnDragons(){
