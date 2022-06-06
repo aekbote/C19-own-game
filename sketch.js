@@ -60,7 +60,7 @@ function draw() {
          knight.velocityY = 0
         
         textSize(20);
-        text("game over!", 200,300);
+        text("game over!", 150,300);
 
         
 
@@ -79,7 +79,7 @@ function draw() {
         
         //displaying score
       fill('white');
-     text("Score: "+ score, 550,50);
+     text("Score: "+ score, 530,50);
   
 }
 
