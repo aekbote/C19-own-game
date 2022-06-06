@@ -79,7 +79,7 @@ function draw() {
         
         //displaying score
       fill('white');
-     text("Score: "+ score, 530,50);
+     text("Score: "+ score, 510,50);
   
 }
 
